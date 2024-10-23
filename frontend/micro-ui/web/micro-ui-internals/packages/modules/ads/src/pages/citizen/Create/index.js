@@ -71,7 +71,7 @@ const ADSCreate = ({ parentRoute }) => {
   if (
     params &&
     Object.keys(params).length > 0 &&
-    window.location.href.includes("/searchads") &&
+    window.location.href.includes("/info") &&
     sessionStorage.getItem("docReqScreenByBack") !== "true"
   ) {
     clearParams();
